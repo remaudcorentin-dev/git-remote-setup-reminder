@@ -1,5 +1,5 @@
 # git-remote-setup-reminder
-Git setup new remote &amp; local repo
+How to setup a new remote &amp; local GIT repository
 
 ### Remote repo :  
 ```
@@ -24,4 +24,6 @@ git push origin master
 #### Test :
 ```
 cd /tmp ; git clone ssh://git@{{ip_server}}:{{ssh_port}}/home/git/{{project_name}}.git
-``
+```
+
+##### Inspired from https://gist.github.com/steveclarke/1411146
