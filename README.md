@@ -20,3 +20,8 @@ git commit -m “Initial commit : Hello World“
 git remote add origin ssh://git@{{ip_server}}:{{ssh_port}}/home/git/{{project_name}}.git  
 git push origin master  
 ```
+
+#### Test :
+```
+cd /tmp ; git clone ssh://git@{{ip_server}}:{{ssh_port}}/home/git/{{project_name}}.git
+``
