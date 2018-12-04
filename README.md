@@ -21,9 +21,14 @@ git remote add origin ssh://git@{{ip_server}}:{{ssh_port}}/home/git/{{project_na
 git push origin master  
 ```
 
-#### Test :
+### Test :
 ```
 cd /tmp ; git clone ssh://git@{{ip_server}}:{{ssh_port}}/home/git/{{project_name}}.git
+```
+
+### Change repo url :
+```
+git remote set-url origin ssh://git@{{ip_server}}:{{ssh_port}}/home/git/{{project_name}}.git
 ```
 
 ##### Inspired from https://gist.github.com/steveclarke/1411146
