@@ -13,10 +13,10 @@ git init --bare
 ```
 mkdir {{new_project_name}}  
 cd {{new_project_name}}  
-echo ‘Hello World’ > hello_world.txt  
+echo 'Hello World' > hello_world.txt  
 git init  
 git add hello_world.txt  
-git commit -m “Initial commit : Hello World“  
+git commit -m "Initial commit : Hello World" . 
 git remote add origin ssh://git@{{ip_server}}:{{ssh_port}}/home/git/{{project_name}}.git  
 git push origin master  
 ```
